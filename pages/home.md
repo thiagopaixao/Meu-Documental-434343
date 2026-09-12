@@ -38,10 +38,12 @@ components:
     animations: true
     txtColor: Primary
     customTxtColor: ''
-    bgColor: Secondary
-    customBgColor: ''
-    backgroundMedia: []
-    overlay: ''
+    bgColor: Custom
+    customBgColor: '#ff000049'
+    backgroundMedia:
+      - type: backgroundImage
+        imgSrc: /uploads/arqueological-remains_03.jpg
+    overlay: none
     components:
       - type: Columns
         paddingTop: false
